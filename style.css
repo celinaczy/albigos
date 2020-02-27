@@ -1,0 +1,35 @@
+
+  body {
+    background: pink;
+}
+  .top {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+  
+    top: calc(50% - 150px);
+    right: calc(50% - 150px);
+    }
+  
+  .bottom {
+    width: 1500px;
+    height: 1500px;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 750px);
+    right: calc(50% - 750px);
+    animation: spin 20s linear infinite;
+  }
+
+  .top:hover {
+    transform: scale(1.5);
+  }
+  
+  @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
