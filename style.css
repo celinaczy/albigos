@@ -10,46 +10,29 @@
   justify-content: center;
   overflow: hidden;
 }
-#myVideo1 {
-  position: fixed;
-  left: 0;
-  top: 0;
-  min-width: 100%;
-  min-height: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  overflow: hidden;
-}
 
-.video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-  
-  .top {
+  .cat {
     width: 300px;
     position: absolute;
   
     top: calc(50% - 150px);
     right: calc(50% - 150px); 
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
   }
   
-  .bottom {
+  .rays {
+    min-height: 1500px;
     width: 1500px;
-    height: 1500px;
+
     position: absolute;
     top: calc(50% - 750px);
-    right: calc(50% - 750px);
+    left: calc(50% - 750px)
+    z-index: 1;
     animation: spin 20s linear infinite;
   }
 
-  .top:hover {
+  .cat:hover {
     transform: scale(1.5);
   }
   
