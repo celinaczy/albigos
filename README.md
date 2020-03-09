@@ -1,2 +1,2 @@
-All about Albigos 
-Live version [here] (https://celinaczy.github.io/albigos/)
+All about Albigos  
+https://celinaczy.github.io/albigos/
