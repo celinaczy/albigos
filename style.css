@@ -12,11 +12,11 @@
 }
 
   .cat {
-    width: 300px;
+    width: 60vmin;
     position: absolute;
-  
-    top: calc(50% - 150px);
-    right: calc(50% - 150px); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
     z-index: 2;
     cursor: pointer;
   }
