@@ -22,14 +22,14 @@
   }
   
   .rays {
-    min-height: 1500px;
-    width: 1500px;
-
     position: absolute;
-    top: calc(50% - 750px);
-    left: calc(50% - 750px)
-    z-index: 1;
+    height: 150vw; /* You must set a specified height */
+    width: 150vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     animation: spin 20s linear infinite;
+}
   }
 
   .cat:hover {
