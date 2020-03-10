@@ -23,8 +23,8 @@
   
   .rays {
     position: absolute;
-    height: 175vw; 
-    width: 175vw;
+    height: 200vw; 
+    width: 200vw;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
